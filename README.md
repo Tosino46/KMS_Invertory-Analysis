@@ -2,103 +2,85 @@
 My first Project on SQL Server
 
 
-Objective
+## Objective
 
 The goal of the KMS (Kultral Mega Store) Inventory Project was to analyze the performance of product categories, customer behavior, shipping strategies, and regional sales using historical sales data from 2009 to 2012. This analysis provides strategic insights to support decision-making in inventory management, customer segmentation, logistics, and revenue optimization.
 
-Key Insights and Findings
+## Key Insights and Findings
 
-🔷 Top Performing Categories & Regions
+#### Top Performing Categories & Regions
 
-Product Category with the Highest Sales:
+- Product Category with the Highest Sales:
 
 Office Machines generated the highest total sales revenue, indicating strong market demand.
 
 
-Top 3 Regions by Sales:
+- Top 3 Regions by Sales:
 
-These regions led in total revenue, showing high customer activity and potential:
-
-1. Ontario
+These regions led in total revenue, showing high customer activity and potential.
 
 
-2. Quebec
+- Bottom 3 Regions by Sales:
 
-
-3. British Columbia
+These regions showed weak sales performance, possibly needing targeted marketing or reevaluation.
 
 
 
+#### Category-Specific Regional Performance
 
-Bottom 3 Regions by Sales:
-
-These regions showed weak sales performance, possibly needing targeted marketing or reevaluation:
-
-Northwest Territories
-
-Yukon
-
-Nunavut
-
-
-
-
-Category-Specific Regional Performance
-
-Appliances Sales in Ontario:
+- Appliances Sales in Ontario:
 
 Appliances showed moderate sales in Ontario, suggesting a potential for market penetration or product repositioning.
 
 
- Customer Analysis
+#### Customer Analysis
 
-Most Valuable Segment:
+- Most Valuable Segment:
 
 The Corporate segment is the most profitable, purchasing across multiple high-value categories like 'Office Machines' and 'Telephone & Communication.'
 
 
-Most Profitable Consumer Customers:
+- Most Profitable Consumer Customers:
 
 Top 3 consumer customers contributed the highest profit margins from 2009–2012.
 
 
-Small Business Customer with Highest Sales:
+- Small Business Customer with Highest Sales:
 
 One standout small business customer generated the highest single-customer revenue in that segment.
 
 
-Customer Return Behavior:
+- Customer Return Behavior:
 
 Product returns were recorded across all segments: Consumer, Corporate, Home Office, and Small Business, which may indicate quality or logistics concerns.
 
 
+#### Order Trends
 
- Order Trends
-
-Highest Corporate Orders (2009–2012):
+- Highest Corporate Orders (2009–2012):
 
 A corporate customer placed the most orders during the period, revealing strong repeat engagement.
 
 
-Revenue from Bottom 10 Customers:
+- Revenue from Bottom 10 Customers:
 
 Office Supplies, a frequent choice of these customers, had the lowest revenue generation, suggesting a need for improvement in product appeal and quality.
 
 
 
- Shipping & Logistics Insights
+#### Shipping & Logistics Insights
 
-Most Costly Shipping Method:
+- Most Costly Shipping Method:
 
-The Standard Class shipping mode had the highest accumulated shipping costs.
-
-
-Order Priority vs. Shipping Cost:
-
-High-priority orders incur higher shipping costs and show quicker average delivery times. This balance of speed vs. cost can be optimized further.
+The Delivery Truck shipping mode has the highest accumulated shipping costs.
 
 
-Strategic Recommendations
+- Order Priority vs. Shipping Cost:
+
+High-priority orders does not really affect higher shipping costs but shows quicker average delivery times. This balance of speed . cost can be optimized further.
+
+
+### Strategic Recommendations
 
 1. Boost Low-Performing Categories:
 
@@ -107,7 +89,7 @@ Revamp product offerings in the Office Supplies category by improving quality or
 
 2. Optimize Shipping Costs:
 
-Review Standard Class logistics to identify opportunities for cost savings without impacting delivery times.
+Review Delivery Truck logistics to identify opportunities for cost savings without impacting delivery times.
 
 
 3. Expand High-Performing Segments and Regions:
@@ -126,7 +108,7 @@ Implement loyalty or referral programs for top-performing consumer and corporate
 
 
 
-Conclusion
+## Conclusion
 
-The KMS Inventory Store SQL analysis uncovers critical patterns across product sales, customer behavior, and logistics. With informed strategic actions, KMS can enhance inventory efficiency, improve customer satisfaction, and maximize profitability across its oper
+The KMS Inventory Store SQL analysis uncovers critical patterns across product sales, customer behavior, and logistics. With informed strategic actions, KMS can enhance inventory efficiency, improve customer satisfaction, and maximize profitability across its operations.
 
