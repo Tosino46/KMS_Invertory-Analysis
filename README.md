@@ -2,9 +2,18 @@
 My first Project on SQL Server
 
 
+## Introduction
+
+Kultra Mega Stores (KMS) headquarters in Lagos, specialise in office supplies and furniture. Its customer base includes individual consumer, small business (retail), and large corporate clients (wholesales) across Lagos, Nigeria.
+I am engaged as a Business Intelligent Analyst to support the Abuja division of KMS, so an excel file an excel file containing order details from 2009 to 2012 was shared to me to analyze the data and present key insights and findings.
+
 ## Objective
 
 The goal of the KMS (Kultral Mega Store) Inventory Project was to analyze the performance of product categories, customer behavior, shipping strategies, and regional sales using historical sales data from 2009 to 2012. This analysis provides strategic insights to support decision-making in inventory management, customer segmentation, logistics, and revenue optimization.
+
+## Tools Used 
+
+SQL Server for querying and analyzing the data.
 
 ## Key Insights and Findings
 
@@ -12,59 +21,77 @@ The goal of the KMS (Kultral Mega Store) Inventory Project was to analyze the pe
 
 - Product Category with the Highest Sales:
 
-Office Machines generated the highest total sales revenue, indicating strong market demand.
+Technology generated the highest total sales revenue, indicating strong market demand.
 
 
 - Top 3 Regions by Sales:
 
-These regions led in total revenue, showing high customer activity and potential.
+These regions led in total revenue, showing high customer activity and potential:
+
+1. West – with ₦3.5 million +
+
+2. Ontario- with ₦3.0 million +
+
+3. Prarie – with ₦2.8 million +
+
 
 
 - Bottom 3 Regions by Sales:
 
-These regions showed weak sales performance, possibly needing targeted marketing or reevaluation.
 
+These regions showed weak sales performance, possibly needing targeted marketing or reevaluation:
+
+Yukon – with ₦975.8 thousand +
+
+Northwest Territories – ₦800.8 thousand +
+
+Nunavut – ₦116.3 thousand +
 
 
 #### Category-Specific Regional Performance
 
 - Appliances Sales in Ontario:
 
-Appliances showed moderate sales in Ontario, suggesting a potential for market penetration or product repositioning.
+Total sales of appliances is ₦202.3 thousand + showcasing moderate sales in Ontario, suggesting a potential for market penetration or product repositioning.
 
 
 #### Customer Analysis
 
-- Most Valuable Segment:
+- Most Valuable Customer In terms of Revenue:
+  
+Here is a list of the top three profitable customer in terms of Revenue. It could be seen that the product of Technology has the maximum revenue from customer indicating strong satisfaction of customer.
 
-The Corporate segment is the most profitable, purchasing across multiple high-value categories like 'Office Machines' and 'Telephone & Communication.'
+_Name_,                _Product_,           _Services_,                         _Revenue_
 
+Emily Phan,	           Technology,         	Office Machines, 	                  ₦103,652.49
+
+Raymond Book,	         Technology,          	Copiers and Fax,                   	₦51,954.52
+
+Dennis Kane,           Technology,	          Copiers and Fax, 	                  ₦49,836.40
 
 - Most Profitable Consumer Customers:
 
-Top 3 consumer customers contributed the highest profit margins from 2009–2012.
+_Emily Phan_, _Raymond Book_ and _Rick Wilson_ are the top 3 consumer customers that contributed to the highest profit margins from 2009–2012.
 
 
 - Small Business Customer with Highest Sales:
 
-One standout small business customer generated the highest single-customer revenue in that segment.
+_Dennis Kane_ is the only standout small business customer that generated the highest single-customer revenue in that segment with ₦33.3 thousand+.
 
 
-- Customer Return Behavior:
+- Returned Items:
 
-Product returns were recorded across all segments: Consumer, Corporate, Home Office, and Small Business, which may indicate quality or logistics concerns.
+Customer that returns product were recorded across all segments of: Consumer, Corporate, Home Office, and Small Business, which may indicate quality or logistics concerns.
 
-
-#### Order Trends
 
 - Highest Corporate Orders (2009–2012):
 
-A corporate customer placed the most orders during the period, revealing strong repeat engagement.
+_Adam Hart_ a corporate customer placed the most orders during the period, revealing strong repeat engagement.
 
 
 - Revenue from Bottom 10 Customers:
 
-Office Supplies, a frequent choice of these customers, had the lowest revenue generation, suggesting a need for improvement in product appeal and quality.
+It could been seen that Office Supplies under Product Category from year 2009-2012, had the lowest revenue generation, suggesting a need for strongly improvement in product appeal and quality.
 
 
 
@@ -72,12 +99,12 @@ Office Supplies, a frequent choice of these customers, had the lowest revenue ge
 
 - Most Costly Shipping Method:
 
-The Delivery Truck shipping mode has the highest accumulated shipping costs.
+The Delivery Truck shipping mode had the highest accumulated shipping costs of ₦51,971.94.
 
 
 - Order Priority vs. Shipping Cost:
 
-High-priority orders does not really affect higher shipping costs but shows quicker average delivery times. This balance of speed . cost can be optimized further.
+High-priority orders incur higher shipping costs and show quicker average delivery times. This balance of speed vs. cost can be optimized further.
 
 
 ### Strategic Recommendations
@@ -89,12 +116,12 @@ Revamp product offerings in the Office Supplies category by improving quality or
 
 2. Optimize Shipping Costs:
 
-Review Delivery Truck logistics to identify opportunities for cost savings without impacting delivery times.
+Review Standard Class logistics to identify opportunities for cost savings without impacting delivery times.
 
 
 3. Expand High-Performing Segments and Regions:
 
-Invest in targeted promotions for Corporate customers and top-performing regions like Ontario and Quebec to maximize growth.
+Invest in targeted promotions for Corporate customers and top-performing regions like west and Ontario to maximize growth.
 
 
 4. Address Product Return Issues:
@@ -111,4 +138,3 @@ Implement loyalty or referral programs for top-performing consumer and corporate
 ## Conclusion
 
 The KMS Inventory Store SQL analysis uncovers critical patterns across product sales, customer behavior, and logistics. With informed strategic actions, KMS can enhance inventory efficiency, improve customer satisfaction, and maximize profitability across its operations.
-
