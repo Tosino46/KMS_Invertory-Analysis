@@ -53,14 +53,11 @@ select* from [KMS Sql Case Study]
 
 ---THE MOST VALUEABLE CUSTOMERS WITH PRODUCT AND SERVICES TYPICAL PURCHASED
 
---The corporate customer segment are the most valuable in terms of revenue to the company 
---with different product purchase rangeing from 800+ - 600+ thousand of revenue of four different products.
---The most purchase product is 'Telephone and Communication' while product with highest income is 'Office Machines'
 
-
-select top 10 count(distinct row_id), customer_segment, Product_Sub_category, sum(sales) as total_sales
+ select top 10 count(distinct row_id), Customer_Name, customer_segment, 
+		Product_Category, Product_Sub_category, sum(sales) as total_sales
  from [KMS Sql Case Study]
- group by customer_segment, Product_Sub_category
+ group by customer_segment, Customer_Name, Product_Category, Product_Sub_category
  order by total_sales desc
 
 
@@ -94,12 +91,12 @@ order by total_profit desc
 --They belong to segement of: Consumer, corporate, Home Office and Small Business
 
 
-select count(kms.order_id)as no_of_customer, kms.customer_name,
+select count(kms.order_id)as no_of_customer, kms.Product_Category, kms.customer_name,
 	   Kms.customer_segment, [order].[status]
 from [KMS Sql Case Study] kms 
 join order_status [order]
 on kms.[order_id] = [order].[order_id]
-group by Kms.customer_segment, [order].[status], kms.customer_name
+group by Kms.customer_segment, [order].[status], kms.Product_Category, kms.customer_name
 
 
 --AMOUNT OF SHIPING COST BASE ON ORDER PRIORITY
@@ -110,6 +107,3 @@ select count(order_id), order_priority, ship_mode, sum(Sales) as total_sales,
 	sum(shipping_cost), Product_container
 from [KMS Sql Case Study]
 group by order_priority, ship_mode, Product_container
-
-
-
